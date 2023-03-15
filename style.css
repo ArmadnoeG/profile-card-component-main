@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+
+--color1: hsl(185, 75%, 39%);
+--color2: hsl(229, 23%, 23%);
+--color3: hsl(227, 10%, 46%);
+--color4: hsl(0, 0%, 59%);
+
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+
+    font-family: 'Kumbh Sans', sans-serif;
+    background: url(./images/bg-pattern-top.svg) no-repeat, url(./images/bg-pattern-bottom.svg) no-repeat, var(--color1);
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;;
+    font-size: 1.125rem;
+    min-height: 100vh;
+    
+
+}
+
+    
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.article {
+
+    text-align: center;
+    border-radius: .625rem;
+    overflow: hidden;
+    position: relative;
+    width: 20.3125rem;
+    
+
+}
+.article__background img {
+
+    display:block;
+     
+}
+.article__profile--img {
+
+    display: block;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin: 0 auto;
+    position:absolute;
+    top: -3.75rem;
+    left:35%;
+    top: 25%;
+
+    
+}
+.article__container{
+    background: #fff;
+    border:1px solid #fff;
+}
+.article__name {    
+    
+    color: var(--color2);
+    font-size:  1.3rem;
+    font-weight: 700;
+    margin-top: 3.8rem;
+}
+span {
+
+    color: var(--color4);
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin: 0 .5rem;
+}
+.article__p {
+
+    color: var(--color3);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem 0;
+
+}
+
+
+
+.article__stats {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid hsla(0, 0%, 59%, 0.222);;
+}
+.article__list {
+
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+.article__numbers {
+
+    margin: 0 .5rem;
+    padding: 1rem;
+    color: var(--color2);
+    font-weight: 700;
+}
+.article__numbers p {
+
+    font-weight: 400;
+    font-size: .75rem;
+    letter-spacing: .0625rem;
+    color: var(--color4);
+    padding-top: .5rem;
+}
+
+
+    
+
+
+
+    
+
+
+
+    
+        
+    
+    
+    
+
+    
+
+
+
+
+
+    
+    
+    
+    
+
+
+    
+
+
+
+
+
+    
+    
